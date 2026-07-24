@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi User To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Multi User To-Do App</h1>
+
+    <div class="section">
+        <h2>Add User</h2>
+
+        <input
+            type="text"
+            id="userInput"
+            placeholder="Enter user name"
+        >
+
+        <button id="addUserBtn">
+            Add User
+        </button>
+    </div>
+
+    <div class="section">
+        <h2>Select User</h2>
+
+        <select id="userSelect">
+            <option value="">Select User</option>
+        </select>
+    </div>
+
+    <div class="section">
+        <h2>Add Task</h2>
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter task"
+        >
+
+        <button id="addTaskBtn">
+            Add Task
+        </button>
+    </div>
+
+    <div class="section">
+        <h2>Tasks</h2>
+
+        <div id="taskList"></div>
+    </div>
+
+    <div class="section stats">
+        <p>
+            Completed:
+            <span id="completedCount">0</span>
+        </p>
+
+        <p>
+            Pending:
+            <span id="pendingCount">0</span>
+        </p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</htm
